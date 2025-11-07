@@ -66,19 +66,43 @@ h1 {
     padding-left: 2em;
 }
 
+h1 a {
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #ffffff;
+}
+
 h2 {
     margin-top: 2rem;
 }
 
 main {
     margin-left: 9.5em;
+    margin-right: 1em;
     padding-left: 2.5em;
-    padding-right: 2em;
+    padding-right: 3em;
     display: block;
 }
 
 .conteneur {
     display: flex;
+    gap: 54px;
+}
+
+.dl {
+    flex: 1;
+}
+
+.dt {
+    font-size: 18.5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.dd {
+    margin-left: 30px;
 }
 
 img {
@@ -91,10 +115,6 @@ img {
 
 .studio {
     font-style: italic;
-}
-
-#hero {
-    text-align: center;
 }
 
 .tapis-de-yoga {
