@@ -18,9 +18,11 @@ body {
 }
 
 nav {
+    height: 300px;
+    width: 160px;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.65rem;
     padding: 1rem;
     margin-top: 1rem;
     float: left;
@@ -29,6 +31,8 @@ nav {
 }
 
 nav a {
+    height: 50px;
+    width: 130px;   
     padding: 0.75rem 1rem;
     border: 2px solid;
     /*
@@ -75,20 +79,22 @@ h1 a:hover {
 }
 
 h2 {
-    margin-top: 2rem;
+    margin-top: 2.2rem;
+    margin-bottom: 1.6rem;
 }
 
 main {
     margin-left: 9.5em;
     margin-right: 1em;
     padding-left: 2.5em;
-    padding-right: 3em;
+    padding-right: 2.5em;
     display: block;
 }
 
 .conteneur {
     display: flex;
-    gap: 54px;
+    gap: 56px;
+    margin-right: 5px;
 }
 
 .dl {
@@ -98,7 +104,7 @@ main {
 .dt {
     font-size: 18.5px;
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
 
 .dd {
@@ -107,13 +113,18 @@ main {
 
 img {
     width: 320px;
-    height: 320px;
+    height: 315px;
     padding-left: 0em;
     padding-right: 4em;
     padding-bottom: 1em;
 }
 
+.clearleft {
+    clear: left;
+}
+
 .studio {
+    
     font-style: italic;
 }
 
